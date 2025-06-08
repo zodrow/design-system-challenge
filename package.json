@@ -1,0 +1,26 @@
+{
+  "name": "ab-design-system-challenge",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@storybook/addon-docs": "^9.0.5",
+    "@storybook/addon-onboarding": "^9.0.5",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/react-webpack5": "^9.0.5",
+    "prop-types": "^15.8.1",
+    "storybook": "^9.0.5"
+  }
+}
