@@ -1,9 +1,5 @@
-Sure! Here’s the entire `README.md` consolidated into one clean Markdown file, ready to drop into your project:
-
----
-
 ```markdown
-# ✨ My Design System
+# ✨ Design System Starter
 
 A modular, versioned React component library with Storybook, theming support, documentation, and a demo app to show components in use. This monorepo is built for scalable frontend development and consistent UI patterns across applications.
 
